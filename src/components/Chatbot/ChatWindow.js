@@ -179,7 +179,8 @@ const ChatWindow = ({ onClose, messages, setMessages }) => {
     setIsTyping(true);
 
     try {
-      const response = await axios.post('http://localhost:5002/api/message', { messages: updatedMessages });
+      // Atualize a URL abaixo para apontar para o Heroku
+      const response = await axios.post('https://meu-chatbot-backend-319b6590e29b.herokuapp.com/api/message', { messages: updatedMessages });
       const botReply = response.data.reply;
 
       setMessages(prev => [...prev, { sender: 'chatbot', text: botReply }]);

@@ -1,0 +1,24 @@
+{
+  "chatbot": {
+    "title": "Chatbot",
+    "user": "Usuario",
+    "chatbot": "Chatbot",
+    "close": "Cerrar Chat",
+    "placeholder": "Escriba un mensaje...",
+    "messages": {
+      "greetingUser": "¡Hola!",
+      "greetingChatbot": "¡Hola! ¿Cómo puedo ayudarte hoy?",
+      "botHello": "¡Hola! ¿En qué puedo ayudarte?",
+      "botHowAreYou": "Soy solo un bot, pero estoy aquí para ayudar!",
+      "botDefault": "No estoy seguro de entender. ¿Puedes explicar mejor?",
+      "typing": "El chatbot está escribiendo...",
+      "error": "Lo siento, algo salió mal."
+    },
+    "quickReplies": {
+      "ram": "¿Qué es la RAM?",
+      "installServer": "¿Cómo instalo un servidor?",
+      "routerFunction": "¿Qué hace un router?",
+      "wifiSecurity": "¿Cómo puedo asegurar mi Wi-Fi?"
+    }
+  }
+}
